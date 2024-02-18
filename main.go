@@ -67,7 +67,10 @@ func main() {
 	// for more details.
 	ctx, cancel := context.WithTimeout(ctx, 10*time.Second)
 	defer cancel()
-	app.Shutdown(ctx)
+	err = app.Shutdown(ctx)
+	if err != nil {
+		return
+	}
 	log.Println("shutdown")
 }
 
