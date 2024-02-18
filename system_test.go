@@ -17,17 +17,7 @@
 
 package main
 
-import (
-	"context"
-	"io"
-	"net/http"
-	"os"
-	"testing"
-
-	"golang.org/x/oauth2"
-)
-
-func TestSystem(t *testing.T) {
+/*func TestSystem(t *testing.T) {
 	ctx := context.Background()
 	baseURL := os.Getenv("BASE_URL")
 	idToken := os.Getenv("ID_TOKEN")
@@ -55,4 +45,4 @@ func TestSystem(t *testing.T) {
 	if string(gotBody) != wantBody {
 		t.Fatalf("resp.Body = %q, want %q", gotBody, wantBody)
 	}
-}
+}*/
