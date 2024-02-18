@@ -103,7 +103,7 @@ substitutions:
   _GCR_HOSTNAME: us-central1-docker.pkg.dev
   _SERVICE_NAME: microservice-template
   _DEPLOY_REGION: us-central1
-  _REPOSITORY: climbing_tracker
+  _REPOSITORY: durable-will-414708_cloudbuild
 
 options:
   volumes:
